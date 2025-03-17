@@ -9,6 +9,7 @@ package mephi.b22901.decorator;
  * @author ivis2
  */
 public interface Dish {
+    
     String getName();
     int getPrice();
     void execute();

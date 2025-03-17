@@ -25,7 +25,9 @@ public class DoubleVenison extends DishDecorator {
     
     @Override
     public void execute() {
-        super.execute();
+        dish.execute();
+        getPrice();
+        
         System.out.println("Добавляется двойная порция оленины...");
     }
 }

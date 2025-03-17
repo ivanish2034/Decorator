@@ -25,7 +25,8 @@ public class SnowBerries extends DishDecorator {
     
     @Override
     public void execute() {
-        super.execute();
-        System.out.println("Добавляются снежные ягоды...");
+        dish.execute();
+        getPrice();
+        
     }
 }

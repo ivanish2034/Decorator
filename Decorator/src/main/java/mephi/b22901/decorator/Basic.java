@@ -21,7 +21,7 @@ public class Basic implements Dish {
     
     @Override
     public void execute() {
-        System.out.println("Готовится базовое рагу...");
+        getPrice();
     }
 }
 

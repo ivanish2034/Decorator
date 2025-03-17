@@ -25,8 +25,9 @@ public class SpicySauce extends DishDecorator {
     
     @Override
     public void execute() {
-        super.execute();
-        System.out.println("Добавляется огненный соус...");
+        dish.execute();
+        getPrice();
+        
     }
 }
 

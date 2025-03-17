@@ -22,5 +22,12 @@ public class Nordic extends DishDecorator {
     public int getPrice() {
         return dish.getPrice() + 7;
     }
+    
+    @Override
+    public void execute() {
+        dish.execute();
+        getPrice();
+        
+    }
 }
 
